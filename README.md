@@ -68,3 +68,29 @@ To set up and run this project locally, follow these steps:
 Open and run the `faceemotion.ipynb` notebook to understand the model training process, data preparation, and evaluation metrics.
 ```bash
 jupyter notebook faceemotion.ipynb
+```
+
+### 2. Real-time Emotion Detection
+
+To run the real-time detection script using your webcam:
+```bash
+python realtimedetect.py
+```
+_Ensure you have a working webcam connected._
+
+### 3. Predicting on a Single Image
+
+You can use the provided predict_emotion.py script (if you create one based on our earlier discussion) or integrate similar logic into your notebook.
+
+### Future Work & Improvements
+Increase model accuracy by experimenting with different architectures, datasets, or advanced training techniques (e.g., data augmentation, regularization).
+
+Explore more robust facial alignment methods.
+
+Implement a user interface (GUI) for easier interaction.
+
+Optimize for deployment on edge devices.
+
+Extend to recognize more nuanced emotional states or compound emotions.
+
+Integrate with other applications (e.g., sentiment analysis, human-computer interaction).
