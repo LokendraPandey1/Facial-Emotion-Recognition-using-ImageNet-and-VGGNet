@@ -82,7 +82,8 @@ _Ensure you have a working webcam connected._
 
 You can use the provided predict_emotion.py script (if you create one based on our earlier discussion) or integrate similar logic into your notebook.
 
-### Future Work & Improvements
+## Future Work & Improvements
+
 * Increase model accuracy by experimenting with different architectures, datasets, or advanced training techniques (e.g., data augmentation, regularization).
 * Explore more robust facial alignment methods.
 * Implement a user interface (GUI) for easier interaction.
